@@ -20,7 +20,7 @@ int main()
 	printf_s("Memory size occupied by status1 : %d\n", sizeof(status1));
 	printf_s("Memory size occupied by status2 : %d\n", sizeof(status2));
 	
-	Age.ages = 4;
+	Age.ages = 4; 
 	printf_s("Sizeof(Age) : %d\n",sizeof(Age));
 	printf_s("Age.age = %d\n",Age.ages);
 
